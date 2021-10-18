@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgb(100, 221, 237);
+}
+
+.header {
+  color: rgb(255, 230, 1);
+  background-color: #06213f;
+  padding: 20px 20px;
+  font-family: "WindSong";
+  font-size: 88px;
+}
+
+.intro {
+  color:black;
+  font-family: "WindSong";
+  font-size: 32px;
+}
+.presenting {
+  color: black;
+  font-size: 32px;
+  font-family: "TimesNewRoman";
+  background-color: rgb(70, 155, 161);
+  text-align: center;
+}
+.thefontkittens {
+  color: black;
+  font-size: 102px;
+  font-family: "Allison";
+  background-color: rgb(70, 155, 161);
+  text-align: center;
+}
+.CursiveKittens {
+  font-family: "Brush Script MT";
+  font-size: 60px;
+  text-align: left;
+}
+.AllisonKitten {
+  background-color:rgb(90, 30, 255);
+  color: red;
+  font-family: "Allison";
+  font-size: 100px;
+  text-align: right;
+  padding: 20px 20px;
+}
+.AllisonDescription {
+  color:rgb(255, 0, 212);
+  font-family: "Allison";
+  font-size: 60px;
+  text-align: left;
+}
+.WindSongKitten {
+  background-color:rgb(30, 83, 255);
+  color: black;
+  font-family: "WindSong";
+  font-size: 68px;
+  text-align: left;
+  padding: 20px 20px;
+}
+.WindSongDescription {
+  color:black;
+  font-family: "WindSong";
+  font-size: 38px;
+  text-align: left;
+}
+
+
+/*
+  .ZZZ {
+  color:rgb(255, 0, 0);
+  font-family: "Allison";
+  font-size: 102px;
+  background-color:rgb(90, 30, 255);
+  border: 2px solid rgb(230, 14, 43);
+  padding: 3px; "Padding" is between the text and the border 
+  margin: 50px "Margin" is space outside the border
+  text-align: left
+*/
+/*The Serif Kittens*/
+
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+  background: .750404;
+  padding: 20px;
+
+  overflow: hidden;
+}
+
+li1 {
+  background-color: white;
+  color:black; 
+  font-weight: normal;
+}
+li1:before {
+    content: "♈";
+    background-color: white;
+    font-weight: normal;
+}
+
+@media screen and (max-width:700px) {
+  .AllisonKittens{
+
+    font-size: 10px;
+  }
+}
